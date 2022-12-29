@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652F6A73295DAAEB0017FEAA /* UbuntuMono-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A65295DAAEA0017FEAA /* UbuntuMono-BI.ttf */; };
+		652F6A74295DAAEB0017FEAA /* Ubuntu-LI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A66295DAAEA0017FEAA /* Ubuntu-LI.ttf */; };
+		652F6A75295DAAEB0017FEAA /* Ubuntu-Th.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A67295DAAEA0017FEAA /* Ubuntu-Th.ttf */; };
+		652F6A76295DAAEB0017FEAA /* Ubuntu-L.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A68295DAAEB0017FEAA /* Ubuntu-L.ttf */; };
+		652F6A77295DAAEB0017FEAA /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A69295DAAEB0017FEAA /* Ubuntu-C.ttf */; };
+		652F6A78295DAAEB0017FEAA /* Ubuntu-MI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A6A295DAAEB0017FEAA /* Ubuntu-MI.ttf */; };
+		652F6A79295DAAEB0017FEAA /* UbuntuMono-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A6B295DAAEB0017FEAA /* UbuntuMono-B.ttf */; };
+		652F6A7A295DAAEB0017FEAA /* UbuntuMono-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A6C295DAAEB0017FEAA /* UbuntuMono-RI.ttf */; };
+		652F6A7B295DAAEB0017FEAA /* UbuntuMono-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A6D295DAAEB0017FEAA /* UbuntuMono-R.ttf */; };
+		652F6A7C295DAAEB0017FEAA /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A6E295DAAEB0017FEAA /* Ubuntu-B.ttf */; };
+		652F6A7D295DAAEB0017FEAA /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A6F295DAAEB0017FEAA /* Ubuntu-BI.ttf */; };
+		652F6A7E295DAAEB0017FEAA /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A70295DAAEB0017FEAA /* Ubuntu-M.ttf */; };
+		652F6A7F295DAAEB0017FEAA /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A71295DAAEB0017FEAA /* Ubuntu-R.ttf */; };
+		652F6A80295DAAEB0017FEAA /* Ubuntu-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A72295DAAEB0017FEAA /* Ubuntu-RI.ttf */; };
 		6553A802295DA232000EB084 /* OpsClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553A801295DA232000EB084 /* OpsClockApp.swift */; };
 		6553A804295DA232000EB084 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553A803295DA232000EB084 /* Persistence.swift */; };
 		6553A807295DA232000EB084 /* OpsClock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6553A805295DA232000EB084 /* OpsClock.xcdatamodeld */; };
@@ -36,6 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		652F6A65295DAAEA0017FEAA /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
+		652F6A66295DAAEA0017FEAA /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LI.ttf"; sourceTree = "<group>"; };
+		652F6A67295DAAEA0017FEAA /* Ubuntu-Th.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Th.ttf"; sourceTree = "<group>"; };
+		652F6A68295DAAEB0017FEAA /* Ubuntu-L.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-L.ttf"; sourceTree = "<group>"; };
+		652F6A69295DAAEB0017FEAA /* Ubuntu-C.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-C.ttf"; sourceTree = "<group>"; };
+		652F6A6A295DAAEB0017FEAA /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MI.ttf"; sourceTree = "<group>"; };
+		652F6A6B295DAAEB0017FEAA /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-B.ttf"; sourceTree = "<group>"; };
+		652F6A6C295DAAEB0017FEAA /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
+		652F6A6D295DAAEB0017FEAA /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-R.ttf"; sourceTree = "<group>"; };
+		652F6A6E295DAAEB0017FEAA /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		652F6A6F295DAAEB0017FEAA /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BI.ttf"; sourceTree = "<group>"; };
+		652F6A70295DAAEB0017FEAA /* Ubuntu-M.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		652F6A71295DAAEB0017FEAA /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		652F6A72295DAAEB0017FEAA /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-RI.ttf"; sourceTree = "<group>"; };
 		6553A7FE295DA232000EB084 /* OpsClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpsClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6553A801295DA232000EB084 /* OpsClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpsClockApp.swift; sourceTree = "<group>"; };
 		6553A803295DA232000EB084 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -102,6 +130,20 @@
 				6553A801295DA232000EB084 /* OpsClockApp.swift */,
 				6553A803295DA232000EB084 /* Persistence.swift */,
 				6553A808295DA232000EB084 /* ContentView.swift */,
+				652F6A6E295DAAEB0017FEAA /* Ubuntu-B.ttf */,
+				652F6A6F295DAAEB0017FEAA /* Ubuntu-BI.ttf */,
+				652F6A69295DAAEB0017FEAA /* Ubuntu-C.ttf */,
+				652F6A68295DAAEB0017FEAA /* Ubuntu-L.ttf */,
+				652F6A66295DAAEA0017FEAA /* Ubuntu-LI.ttf */,
+				652F6A70295DAAEB0017FEAA /* Ubuntu-M.ttf */,
+				652F6A6A295DAAEB0017FEAA /* Ubuntu-MI.ttf */,
+				652F6A71295DAAEB0017FEAA /* Ubuntu-R.ttf */,
+				652F6A72295DAAEB0017FEAA /* Ubuntu-RI.ttf */,
+				652F6A67295DAAEA0017FEAA /* Ubuntu-Th.ttf */,
+				652F6A6B295DAAEB0017FEAA /* UbuntuMono-B.ttf */,
+				652F6A65295DAAEA0017FEAA /* UbuntuMono-BI.ttf */,
+				652F6A6D295DAAEB0017FEAA /* UbuntuMono-R.ttf */,
+				652F6A6C295DAAEB0017FEAA /* UbuntuMono-RI.ttf */,
 				6553A80A295DA233000EB084 /* Assets.xcassets */,
 				6553A80C295DA233000EB084 /* OpsClock.entitlements */,
 				6553A805295DA232000EB084 /* OpsClock.xcdatamodeld */,
@@ -239,8 +281,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652F6A76295DAAEB0017FEAA /* Ubuntu-L.ttf in Resources */,
+				652F6A7E295DAAEB0017FEAA /* Ubuntu-M.ttf in Resources */,
+				652F6A7B295DAAEB0017FEAA /* UbuntuMono-R.ttf in Resources */,
 				6553A80F295DA233000EB084 /* Preview Assets.xcassets in Resources */,
+				652F6A80295DAAEB0017FEAA /* Ubuntu-RI.ttf in Resources */,
+				652F6A7D295DAAEB0017FEAA /* Ubuntu-BI.ttf in Resources */,
+				652F6A79295DAAEB0017FEAA /* UbuntuMono-B.ttf in Resources */,
+				652F6A7F295DAAEB0017FEAA /* Ubuntu-R.ttf in Resources */,
 				6553A80B295DA233000EB084 /* Assets.xcassets in Resources */,
+				652F6A74295DAAEB0017FEAA /* Ubuntu-LI.ttf in Resources */,
+				652F6A7C295DAAEB0017FEAA /* Ubuntu-B.ttf in Resources */,
+				652F6A73295DAAEB0017FEAA /* UbuntuMono-BI.ttf in Resources */,
+				652F6A75295DAAEB0017FEAA /* Ubuntu-Th.ttf in Resources */,
+				652F6A77295DAAEB0017FEAA /* Ubuntu-C.ttf in Resources */,
+				652F6A78295DAAEB0017FEAA /* Ubuntu-MI.ttf in Resources */,
+				652F6A7A295DAAEB0017FEAA /* UbuntuMono-RI.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +473,6 @@
 		6553A829295DA233000EB084 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = OpsClock/OpsClock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -427,6 +482,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OpsClock;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -435,8 +492,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -445,17 +502,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cloud.skowronski.OpsClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
 		6553A82A295DA233000EB084 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = OpsClock/OpsClock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +523,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OpsClock;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -473,8 +533,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -483,10 +543,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cloud.skowronski.OpsClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Release;
 		};
