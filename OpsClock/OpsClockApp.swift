@@ -17,4 +17,5 @@ struct OpsClockApp: App {
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
+    
 }
