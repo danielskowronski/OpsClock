@@ -19,10 +19,10 @@ struct OpsClockApp: App {
         }
     }
     
-    init() {
+    init() {        
         AttributedText.tags = [
-            "large": { $0.font(Font.custom("Ubuntu Mono Bold", size: 2048)) },
-            "small": { $0.font(Font.custom("Ubuntu Mono Bold", size: 1024)) },
+            "large": { $0.font(Font.custom("UbuntuMono-Bold", size: 2048)) },
+            "small": { $0.font(Font.custom("UbuntuMono-Bold", size: 1024)) },
         ]
         /*
          AttributedText with custom tags used here because:

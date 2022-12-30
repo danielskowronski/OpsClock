@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		652F6A73295DAAEB0017FEAA /* UbuntuMono-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A65295DAAEA0017FEAA /* UbuntuMono-BI.ttf */; };
-		652F6A79295DAAEB0017FEAA /* UbuntuMono-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A6B295DAAEB0017FEAA /* UbuntuMono-B.ttf */; };
-		652F6A7A295DAAEB0017FEAA /* UbuntuMono-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A6C295DAAEB0017FEAA /* UbuntuMono-RI.ttf */; };
-		652F6A7B295DAAEB0017FEAA /* UbuntuMono-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652F6A6D295DAAEB0017FEAA /* UbuntuMono-R.ttf */; };
+		652EF599295F8987008D6EEE /* UbuntuMono-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652EF595295F8987008D6EEE /* UbuntuMono-BI.ttf */; };
+		652EF59A295F8987008D6EEE /* UbuntuMono-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652EF596295F8987008D6EEE /* UbuntuMono-R.ttf */; };
+		652EF59B295F8987008D6EEE /* UbuntuMono-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652EF597295F8987008D6EEE /* UbuntuMono-B.ttf */; };
+		652EF59C295F8987008D6EEE /* UbuntuMono-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652EF598295F8987008D6EEE /* UbuntuMono-RI.ttf */; };
 		652F6A83295DDAFF0017FEAA /* AttributedText in Frameworks */ = {isa = PBXBuildFile; productRef = 652F6A82295DDAFF0017FEAA /* AttributedText */; };
 		6553A802295DA232000EB084 /* OpsClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553A801295DA232000EB084 /* OpsClockApp.swift */; };
 		6553A804295DA232000EB084 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553A803295DA232000EB084 /* Persistence.swift */; };
@@ -41,10 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		652F6A65295DAAEA0017FEAA /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
-		652F6A6B295DAAEB0017FEAA /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-B.ttf"; sourceTree = "<group>"; };
-		652F6A6C295DAAEB0017FEAA /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
-		652F6A6D295DAAEB0017FEAA /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-R.ttf"; sourceTree = "<group>"; };
+		652EF595295F8987008D6EEE /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
+		652EF596295F8987008D6EEE /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-R.ttf"; sourceTree = "<group>"; };
+		652EF597295F8987008D6EEE /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-B.ttf"; sourceTree = "<group>"; };
+		652EF598295F8987008D6EEE /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
 		6553A7FE295DA232000EB084 /* OpsClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpsClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6553A801295DA232000EB084 /* OpsClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpsClockApp.swift; sourceTree = "<group>"; };
 		6553A803295DA232000EB084 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -109,13 +109,13 @@
 		6553A800295DA232000EB084 /* OpsClock */ = {
 			isa = PBXGroup;
 			children = (
+				652EF597295F8987008D6EEE /* UbuntuMono-B.ttf */,
+				652EF595295F8987008D6EEE /* UbuntuMono-BI.ttf */,
+				652EF596295F8987008D6EEE /* UbuntuMono-R.ttf */,
+				652EF598295F8987008D6EEE /* UbuntuMono-RI.ttf */,
 				6553A801295DA232000EB084 /* OpsClockApp.swift */,
 				6553A803295DA232000EB084 /* Persistence.swift */,
 				6553A808295DA232000EB084 /* ContentView.swift */,
-				652F6A6B295DAAEB0017FEAA /* UbuntuMono-B.ttf */,
-				652F6A65295DAAEA0017FEAA /* UbuntuMono-BI.ttf */,
-				652F6A6D295DAAEB0017FEAA /* UbuntuMono-R.ttf */,
-				652F6A6C295DAAEB0017FEAA /* UbuntuMono-RI.ttf */,
 				6553A80A295DA233000EB084 /* Assets.xcassets */,
 				6553A80C295DA233000EB084 /* OpsClock.entitlements */,
 				6553A805295DA232000EB084 /* OpsClock.xcdatamodeld */,
@@ -260,11 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				65AF504E295DE50100030404 /* Assets.xcassets in Resources */,
-				652F6A7B295DAAEB0017FEAA /* UbuntuMono-R.ttf in Resources */,
 				6553A80F295DA233000EB084 /* Preview Assets.xcassets in Resources */,
-				652F6A79295DAAEB0017FEAA /* UbuntuMono-B.ttf in Resources */,
-				652F6A73295DAAEB0017FEAA /* UbuntuMono-BI.ttf in Resources */,
-				652F6A7A295DAAEB0017FEAA /* UbuntuMono-RI.ttf in Resources */,
+				652EF599295F8987008D6EEE /* UbuntuMono-BI.ttf in Resources */,
+				652EF59B295F8987008D6EEE /* UbuntuMono-B.ttf in Resources */,
+				652EF59A295F8987008D6EEE /* UbuntuMono-R.ttf in Resources */,
+				652EF59C295F8987008D6EEE /* UbuntuMono-RI.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +433,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -445,6 +446,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = OpsClock/OpsClock.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpsClock/Preview Content\"";
@@ -452,6 +454,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpsClock/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OpsClock;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -469,7 +472,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = cloud.skowronski.OpsClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -489,6 +492,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = OpsClock/OpsClock.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpsClock/Preview Content\"";
@@ -496,6 +500,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpsClock/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OpsClock;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -513,7 +518,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = cloud.skowronski.OpsClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

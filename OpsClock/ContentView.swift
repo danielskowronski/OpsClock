@@ -9,6 +9,16 @@ import SwiftUI
 import CoreData
 import AttributedText
 
+struct AboutView: View {
+    var body: some View {
+        VStack{
+            Text("© Daniel Skowroński, 2022")
+            
+            Link("https://github.com/danielskowronski/OpsClock", destination: URL(string: "https://github.com/danielskowronski/OpsClock")!)
+        }
+    }
+}
+
 struct MainClockView: View {
     @State var date = Date()
     
@@ -26,11 +36,13 @@ struct MainClockView: View {
             .onAppear(perform: {
                 let _ = self.updateTimer;
             })
+            #if os(macOS)
             .onReceive(NotificationCenter.default.publisher(for: NSWindow.didBecomeKeyNotification)) { notification in
                 if let window = notification.object as? NSWindow {
                     window.level = .floating
                 }
             }
+            #endif
     }
 }
 
@@ -40,6 +52,10 @@ struct ContentView: View {
             MainClockView()
                 .tabItem {
                     Label("Clock", systemImage: "clock")
+                }.padding(20)
+            AboutView()
+                .tabItem {
+                    Label("About", systemImage: "info.circle.fill")
                 }.padding(20)
         }
     }
