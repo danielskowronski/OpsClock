@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652EF599295F8987008D6EEE /* UbuntuMono-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652EF595295F8987008D6EEE /* UbuntuMono-BI.ttf */; };
+		652EF59A295F8987008D6EEE /* UbuntuMono-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652EF596295F8987008D6EEE /* UbuntuMono-R.ttf */; };
+		652EF59B295F8987008D6EEE /* UbuntuMono-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652EF597295F8987008D6EEE /* UbuntuMono-B.ttf */; };
+		652EF59C295F8987008D6EEE /* UbuntuMono-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 652EF598295F8987008D6EEE /* UbuntuMono-RI.ttf */; };
+		652F6A83295DDAFF0017FEAA /* AttributedText in Frameworks */ = {isa = PBXBuildFile; productRef = 652F6A82295DDAFF0017FEAA /* AttributedText */; };
 		6553A802295DA232000EB084 /* OpsClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553A801295DA232000EB084 /* OpsClockApp.swift */; };
 		6553A804295DA232000EB084 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553A803295DA232000EB084 /* Persistence.swift */; };
 		6553A807295DA232000EB084 /* OpsClock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6553A805295DA232000EB084 /* OpsClock.xcdatamodeld */; };
 		6553A809295DA232000EB084 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553A808295DA232000EB084 /* ContentView.swift */; };
-		6553A80B295DA233000EB084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6553A80A295DA233000EB084 /* Assets.xcassets */; };
 		6553A80F295DA233000EB084 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6553A80E295DA233000EB084 /* Preview Assets.xcassets */; };
 		6553A819295DA233000EB084 /* OpsClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553A818295DA233000EB084 /* OpsClockTests.swift */; };
 		6553A823295DA233000EB084 /* OpsClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553A822295DA233000EB084 /* OpsClockUITests.swift */; };
 		6553A825295DA233000EB084 /* OpsClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553A824295DA233000EB084 /* OpsClockUITestsLaunchTests.swift */; };
+		65AF504E295DE50100030404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6553A80A295DA233000EB084 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		652EF595295F8987008D6EEE /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
+		652EF596295F8987008D6EEE /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-R.ttf"; sourceTree = "<group>"; };
+		652EF597295F8987008D6EEE /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-B.ttf"; sourceTree = "<group>"; };
+		652EF598295F8987008D6EEE /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
 		6553A7FE295DA232000EB084 /* OpsClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpsClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6553A801295DA232000EB084 /* OpsClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpsClockApp.swift; sourceTree = "<group>"; };
 		6553A803295DA232000EB084 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -56,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652F6A83295DDAFF0017FEAA /* AttributedText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +109,10 @@
 		6553A800295DA232000EB084 /* OpsClock */ = {
 			isa = PBXGroup;
 			children = (
+				652EF597295F8987008D6EEE /* UbuntuMono-B.ttf */,
+				652EF595295F8987008D6EEE /* UbuntuMono-BI.ttf */,
+				652EF596295F8987008D6EEE /* UbuntuMono-R.ttf */,
+				652EF598295F8987008D6EEE /* UbuntuMono-RI.ttf */,
 				6553A801295DA232000EB084 /* OpsClockApp.swift */,
 				6553A803295DA232000EB084 /* Persistence.swift */,
 				6553A808295DA232000EB084 /* ContentView.swift */,
@@ -151,6 +165,9 @@
 			dependencies = (
 			);
 			name = OpsClock;
+			packageProductDependencies = (
+				652F6A82295DDAFF0017FEAA /* AttributedText */,
+			);
 			productName = OpsClock;
 			productReference = 6553A7FE295DA232000EB084 /* OpsClock.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +240,9 @@
 				Base,
 			);
 			mainGroup = 6553A7F5295DA232000EB084;
+			packageReferences = (
+				652F6A81295DDAFF0017FEAA /* XCRemoteSwiftPackageReference "AttributedText" */,
+			);
 			productRefGroup = 6553A7FF295DA232000EB084 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,8 +259,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65AF504E295DE50100030404 /* Assets.xcassets in Resources */,
 				6553A80F295DA233000EB084 /* Preview Assets.xcassets in Resources */,
-				6553A80B295DA233000EB084 /* Assets.xcassets in Resources */,
+				652EF599295F8987008D6EEE /* UbuntuMono-BI.ttf in Resources */,
+				652EF59B295F8987008D6EEE /* UbuntuMono-B.ttf in Resources */,
+				652EF59A295F8987008D6EEE /* UbuntuMono-R.ttf in Resources */,
+				652EF59C295F8987008D6EEE /* UbuntuMono-RI.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +433,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -419,7 +444,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = OpsClock/OpsClock.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpsClock/Preview Content\"";
@@ -427,28 +454,34 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpsClock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OpsClock;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AppIcon;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = cloud.skowronski.OpsClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
@@ -457,7 +490,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = OpsClock/OpsClock.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpsClock/Preview Content\"";
@@ -465,28 +500,34 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpsClock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OpsClock;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AppIcon;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = cloud.skowronski.OpsClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Release;
 		};
@@ -620,6 +661,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		652F6A81295DDAFF0017FEAA /* XCRemoteSwiftPackageReference "AttributedText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Iaenhaall/AttributedText.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		652F6A82295DDAFF0017FEAA /* AttributedText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 652F6A81295DDAFF0017FEAA /* XCRemoteSwiftPackageReference "AttributedText" */;
+			productName = AttributedText;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		6553A805295DA232000EB084 /* OpsClock.xcdatamodeld */ = {
